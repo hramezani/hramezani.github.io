@@ -19,7 +19,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-}	
+}
 body {
   padding-top:0px;
 }
@@ -41,7 +41,7 @@ a:focus {
 	margin-bottom:1em;
 	COLOR:#fff;
 	font-family: 'Varela Round', sans-serif;
-	
+
 }
 .sidebar img{
 	border:1px solid #fff;
@@ -55,7 +55,7 @@ a:focus {
 	font-weight:600;
 	font-size:1em;
 	color:#fff;
-}  
+}
 
 .details p{
 	color:#101010;
@@ -76,7 +76,7 @@ address span{
 	line-height:1.5em;
 }
 /*----*/
-.main{  
+.main{
   padding:2em 0;
 }
 .content{
@@ -99,6 +99,7 @@ address span{
 .details_header ul li a{
 	padding:0 1em;
 	color:#333;
+	font-size: 18pt;
 }
 .details_header ul li a:hover{
 	color:#6ecadc;
@@ -141,10 +142,12 @@ address span{
 	color:#999;
 	font-weight:300;
 	line-height:1.7em;
+	text-align:justify;
 }
 .cmpny1{
 	border-bottom:3px dashed #999;
 	padding-bottom:1em;
+	text-align: justify;
 }
 .skills{
 	margin:2em 0;
@@ -558,4 +561,21 @@ address span {
 .skill1 ul, .skill2 ul {
   padding-left: 1.5em;
 }
+}
+#my-social {
+	position: relative;
+	bottom: 0px;
+	padding-bottom: 30px;
+}
+#my-social ul li {
+	float: left;
+}
+#my-social ul li:not(:first-child){
+	padding-left: 15px;
+}
+#my-social ul li a{
+	font-size:20px;
+}
+#my-social ul li a:hover{
+	color:#ffffff;
 }
